@@ -1,0 +1,237 @@
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #9d6262;
+  }
+  
+  .blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+  }
+  
+  .blog-header-logo:hover {
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  @media (min-width: 768px) {
+    .display-4 {
+      font-size: 3rem;
+    }
+  }
+  
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+  
+  .nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .nav-scroller .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+  }
+  
+  .card-img-right {
+    height: 100%;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .flex-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+  
+  .h-250 { height: 250px; }
+  @media (min-width: 768px) {
+    .h-md-250 { height: 250px; }
+  }
+  
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+  .blog-title {
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .blog-description {
+    font-size: 1.1rem;
+    color: #999;
+  }
+  
+  @media (min-width: 40em) {
+    .blog-title {
+      font-size: 3.5rem;
+    }
+  }
+  
+  .blog-pagination {
+    margin-bottom: 0.1rem;
+  }
+  .blog-pagination > .btn {
+    border-radius: 2rem;
+  }
+  
+  .blog-post {
+    margin-bottom: 0.1rem;
+  }
+  .blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+  }
+  .blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #999;
+  }
+  
+  
+.container-people {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-people h2 {
+    margin: 50px 0;
+}
+
+.container-people img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 1px 5px 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+}
+
+.container-people p {
+    font-weight: lighter;
+    margin-bottom: 90px;
+}
+
+
+.container-footer {
+    height: 15vh;
+}
+
+.nav-footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.container-footer p {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: #302400;
+}
+
+.icon-navs {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+.icon-navs a {
+    margin-left: 10px;
+    color: #000000;
+}
+
+.icon-navs a:hover {
+    color: #ffd606;
+    font-size: 33px;
+}
+
+.nav-bottom {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(pics/background-2d.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bottom h1 {
+  color: #FFEE63;
+  width: 80%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.nav-bottom input, button {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+ 
+    .container-people {
+        width: 80%;
+        margin: auto;
+    }
+    .workers {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+    .container-footer {
+        width: 70%;
+        margin: center;
+    }
+    .icon-navs {
+        width: 11%;
+        margin-right: 10px;
+    }
+        .nav-bottom div{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-bottom input {
+        width: 100%;
+    }
+    .nav-bottom button {
+        width: 50%;
+        margin-left: 5px;
+    }
+
+}
